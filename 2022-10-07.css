@@ -2,6 +2,7 @@ body {
     color: rgb(72, 55, 31);
     background-color: rgb(251, 221, 176);
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,16 +11,13 @@ ul {
     background-color: rgb(55, 50, 45);
 }
   
-li {
-    float: left;
-}
-  
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
 }
   
   /* Change the link color to #111 (black) on hover */
@@ -38,7 +36,21 @@ section {
 
 #hobby {
     list-style-type: disc;
-    background-color: bisque;
+    background-color: rgb(251, 221, 176);
     color: rgb(59, 49, 35);
-    float: unset;
+    margin: 2vh;
+    padding: 3vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+dt {
+    font-weight: 800;
+    margin: 2vh;
+}
+
+#hegyek {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
